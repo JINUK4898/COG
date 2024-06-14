@@ -1,0 +1,296 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{6D2372A9-2A28-4E4D-92C4-BF41A21ADF91}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>COG</RootNamespace>
+    <AssemblyName>COG</AssemblyName>
+    <TargetFrameworkVersion>v4.8.1</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <Deterministic>true</Deterministic>
+    <TargetFrameworkProfile />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>..\..\bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <Prefer32Bit>false</Prefer32Bit>
+    <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
+    <LangVersion>latest</LangVersion>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Cognex.Rbbt.Net">
+      <HintPath>..\..\..\..\..\..\Program Files\Cognex\VisionPro\bin\Cognex.Rbbt.Net.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Cognex.Vision.Core.Net">
+      <HintPath>..\..\..\..\..\..\Program Files\Cognex\VisionPro\bin\Cognex.Vision.Core.Net.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Cognex.Vision.Startup.Net">
+      <HintPath>..\..\..\..\..\..\Program Files\Cognex\VisionPro\bin\Cognex.Vision.Startup.Net.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Cognex.VisionPro, Version=81.0.0.0, Culture=neutral, PublicKeyToken=ef0f902af9dee505, processorArchitecture=AMD64">
+      <SpecificVersion>False</SpecificVersion>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Cognex.VisionPro.Blob, Version=81.0.0.0, Culture=neutral, PublicKeyToken=ef0f902af9dee505, processorArchitecture=AMD64">
+      <SpecificVersion>False</SpecificVersion>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Cognex.VisionPro.CalibFix, Version=81.0.0.0, Culture=neutral, PublicKeyToken=ef0f902af9dee505, processorArchitecture=AMD64">
+      <SpecificVersion>False</SpecificVersion>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Cognex.VisionPro.Controls, Version=81.0.0.0, Culture=neutral, PublicKeyToken=ef0f902af9dee505, processorArchitecture=AMD64">
+      <SpecificVersion>False</SpecificVersion>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Cognex.VisionPro.Core, Version=81.0.0.0, Culture=neutral, PublicKeyToken=ef0f902af9dee505, processorArchitecture=AMD64">
+      <SpecificVersion>False</SpecificVersion>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Cognex.VisionPro.Dimensioning, Version=81.0.0.0, Culture=neutral, PublicKeyToken=ef0f902af9dee505, processorArchitecture=AMD64">
+      <SpecificVersion>False</SpecificVersion>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Cognex.VisionPro.Display.Controls, Version=81.0.0.0, Culture=neutral, PublicKeyToken=ef0f902af9dee505, processorArchitecture=AMD64">
+      <SpecificVersion>False</SpecificVersion>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Cognex.VisionPro.ImageFile, Version=81.0.0.0, Culture=neutral, PublicKeyToken=ef0f902af9dee505, processorArchitecture=AMD64">
+      <SpecificVersion>False</SpecificVersion>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Cognex.VisionPro.ImageProcessing, Version=81.0.0.0, Culture=neutral, PublicKeyToken=ef0f902af9dee505, processorArchitecture=AMD64">
+      <SpecificVersion>False</SpecificVersion>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Cognex.VisionPro.Interop.Core, Version=83.0.0.0, Culture=neutral, PublicKeyToken=ef0f902af9dee505, processorArchitecture=MSIL">
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+    </Reference>
+    <Reference Include="Cognex.VisionPro.Interop.DisplayCtl, Version=83.0.0.0, Culture=neutral, PublicKeyToken=ef0f902af9dee505, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+      <HintPath>..\..\..\..\..\..\Windows\Microsoft.NET\assembly\GAC_MSIL\Cognex.VisionPro.Interop.DisplayCtl\v4.0_83.0.0.0__ef0f902af9dee505\Cognex.VisionPro.Interop.DisplayCtl.dll</HintPath>
+    </Reference>
+    <Reference Include="Cognex.VisionPro.PMAlign, Version=81.0.0.0, Culture=neutral, PublicKeyToken=ef0f902af9dee505, processorArchitecture=AMD64">
+      <SpecificVersion>False</SpecificVersion>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Cognex.VisionPro.SearchMax, Version=81.0.0.0, Culture=neutral, PublicKeyToken=ef0f902af9dee505, processorArchitecture=AMD64">
+      <SpecificVersion>False</SpecificVersion>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Cognex.VisionPro.ToolGroup, Version=81.0.0.0, Culture=neutral, PublicKeyToken=ef0f902af9dee505, processorArchitecture=AMD64">
+      <SpecificVersion>False</SpecificVersion>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Cognex.VisionPro.ToolGroup.Controls, Version=81.0.0.0, Culture=neutral, PublicKeyToken=ef0f902af9dee505, processorArchitecture=AMD64">
+      <SpecificVersion>False</SpecificVersion>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="JAS">
+      <HintPath>dll\JAS.dll</HintPath>
+    </Reference>
+    <Reference Include="PresentationCore" />
+    <Reference Include="PresentationFramework" />
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Windows.Forms.DataVisualization" />
+    <Reference Include="System.Xaml" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+    <Reference Include="WindowsBase" />
+    <Reference Include="WindowsFormsIntegration" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="AITOOL.cs" />
+    <Compile Include="AITOOL_Params.cs" />
+    <Compile Include="Class1.cs" />
+    <Compile Include="Algorithms.cs" />
+    <Compile Include="CognexAI\Tool.cs" />
+    <Compile Include="CognexAI\VisionProIntegration.cs" />
+    <Compile Include="ImageFileLoadTool2.cs">
+      <SubType>UserControl</SubType>
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Compile>
+    <Compile Include="ImageFileLoadTool2.designer.cs">
+      <DependentUpon>ImageFileLoadTool2.cs</DependentUpon>
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Compile>
+    <Compile Include="Json.cs" />
+    <Compile Include="Main.cs" />
+    <Compile Include="Form1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form1.Designer.cs">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="nrt\DType.cs" />
+    <Compile Include="nrt\Input.cs" />
+    <Compile Include="nrt\ModelType.cs" />
+    <Compile Include="nrt\NDBuffer.cs" />
+    <Compile Include="nrt\Predictor.cs" />
+    <Compile Include="nrt\Result.cs" />
+    <Compile Include="nrt\Shape.cs" />
+    <Compile Include="nrt\Status.cs" />
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Serializ.cs" />
+    <Compile Include="UC_AISetting.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UC_AISetting.Designer.cs">
+      <DependentUpon>UC_AISetting.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UC_MinMax.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UC_MinMax.Designer.cs">
+      <DependentUpon>UC_MinMax.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UC_NGVIEW.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UC_NGVIEW.Designer.cs">
+      <DependentUpon>UC_NGVIEW.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UC_NGVIEW_ALL.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UC_NGVIEW_ALL.Designer.cs">
+      <DependentUpon>UC_NGVIEW_ALL.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UC_OFFPOS.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UC_OFFPOS.Designer.cs">
+      <DependentUpon>UC_OFFPOS.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UC_ResultView.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UC_ResultView.Designer.cs">
+      <DependentUpon>UC_ResultView.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UC_ResultView_Label.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UC_ResultView_Label.Designer.cs">
+      <DependentUpon>UC_ResultView_Label.cs</DependentUpon>
+    </Compile>
+    <Compile Include="VisionPro.Helper.cs" />
+    <EmbeddedResource Include="Form1.resx">
+      <DependentUpon>Form1.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ImageFileLoadTool2.resx">
+      <DependentUpon>ImageFileLoadTool2.cs</DependentUpon>
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <EmbeddedResource Include="UC_AISetting.resx">
+      <DependentUpon>UC_AISetting.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UC_MinMax.resx">
+      <DependentUpon>UC_MinMax.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UC_NGVIEW.resx">
+      <DependentUpon>UC_NGVIEW.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UC_NGVIEW_ALL.resx">
+      <DependentUpon>UC_NGVIEW_ALL.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UC_OFFPOS.resx">
+      <DependentUpon>UC_OFFPOS.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UC_ResultView.resx">
+      <DependentUpon>UC_ResultView.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UC_ResultView_Label.resx">
+      <DependentUpon>UC_ResultView_Label.cs</DependentUpon>
+    </EmbeddedResource>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <PackageReference Include="Newtonsoft.Json">
+      <Version>13.0.3</Version>
+    </PackageReference>
+    <PackageReference Include="OpenCvSharp4">
+      <Version>4.9.0.20240103</Version>
+    </PackageReference>
+    <PackageReference Include="OpenCvSharp4.Extensions">
+      <Version>4.9.0.20240103</Version>
+    </PackageReference>
+    <PackageReference Include="OpenCvSharp4.runtime.win">
+      <Version>4.9.0.20240103</Version>
+    </PackageReference>
+    <PackageReference Include="OpenCvSharp4.Windows">
+      <Version>4.9.0.20240103</Version>
+    </PackageReference>
+    <PackageReference Include="ViDi.NET">
+      <Version>7.3.0.29894</Version>
+    </PackageReference>
+    <PackageReference Include="ViDi.NET.Base">
+      <Version>7.3.0.29894</Version>
+    </PackageReference>
+    <PackageReference Include="ViDi.NET.Local">
+      <Version>7.3.0.29894</Version>
+    </PackageReference>
+    <PackageReference Include="ViDi.NET.UI">
+      <Version>7.3.0.29894</Version>
+    </PackageReference>
+    <PackageReference Include="ViDi.NET.VisionPro">
+      <Version>7.3.0.29894</Version>
+    </PackageReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>

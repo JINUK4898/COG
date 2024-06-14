@@ -1,0 +1,545 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>JAS.Controls</name>
+    </assembly>
+    <members>
+        <member name="F:JAS.Controls.Charts.ChartEdit_Error.components">
+            <summary> 
+            필수 디자이너 변수입니다.
+            </summary>
+        </member>
+        <member name="M:JAS.Controls.Charts.ChartEdit_Error.Dispose(System.Boolean)">
+            <summary> 
+            사용 중인 모든 리소스를 정리합니다.
+            </summary>
+            <param name="disposing">관리되는 리소스를 삭제해야 하면 true이고, 그렇지 않으면 false입니다.</param>
+        </member>
+        <member name="M:JAS.Controls.Charts.ChartEdit_Error.InitializeComponent">
+            <summary> 
+            디자이너 지원에 필요한 메서드입니다. 
+            이 메서드의 내용을 코드 편집기로 수정하지 마십시오.
+            </summary>
+        </member>
+        <member name="T:JAS.Controls.CognexFunction">
+            <summary>
+            CognexTool을 이용해서 만든 기능들 모음
+            </summary>
+        </member>
+        <member name="M:JAS.Controls.CognexFunction.DilationErode_Polygon(System.Collections.Generic.List{Cognex.VisionPro.CogPolygon}@,Cognex.VisionPro.Blob.CogBlobTool,Cognex.VisionPro.ImageProcessing.CogIPOneImageMorphologyOperationConstants,System.Int32,System.Int32)">
+            <summary>
+            CogPolygon 영역의 확대 축소를 위한 함수 
+            </summary>
+            <param name="_Boundry">결과로 반환된 CogPolygon </param>
+            <param name="_BlobToolSource"> </param>
+            <param name="Operation">Get or set the NxM grey morphology operation.</param>
+            <param name="KernelWidth"> 홀수입력할것 Get or set the width of the grey morphology kernel in pixels.</param>
+            <param name="KernelHeight"> 홀수입력할것  Get or set the height of the grey morphology kernel in pixels.</param>
+            <returns>영역을정상적으로반환되었는지</returns>
+        </member>
+        <member name="M:JAS.Controls.CognexFunction.DilationErode_Polygon2(System.Collections.Generic.List{Cognex.VisionPro.CogPolygon}@,Cognex.VisionPro.Blob.CogBlobTool,Cognex.VisionPro.ImageProcessing.CogIPOneImageMorphologyOperationConstants,System.Int32,System.Int32)">
+            <summary>
+            CogPolygon 영역의 확대 축소를 위한 함수 2 version
+            </summary>
+            <param name="_Boundry">결과로 반환된 CogPolygon </param>
+            <param name="_BlobToolSource"> </param>
+            <param name="Operation">Get or set the NxM grey morphology operation.</param>
+            <param name="KernelWidth"> 홀수입력할것 Get or set the width of the grey morphology kernel in pixels.</param>
+            <param name="KernelHeight"> 홀수입력할것  Get or set the height of the grey morphology kernel in pixels.</param>
+            <returns>영역을정상적으로반환되었는지</returns>
+        </member>
+        <member name="P:JAS.Controls.Display.Display2.DisplayManuConstants">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:JAS.Controls.Display.Display2.SettingTool">
+            <summary> 
+            Get , Set Display SettingTool Use
+            </summary>
+        </member>
+        <member name="F:JAS.Controls.Display.Display2.components">
+            <summary> 
+            필수 디자이너 변수입니다.
+            </summary>
+        </member>
+        <member name="M:JAS.Controls.Display.Display2.Dispose(System.Boolean)">
+            <summary> 
+            사용 중인 모든 리소스를 정리합니다.
+            </summary>
+            <param name="disposing">관리되는 리소스를 삭제해야 하면 true이고, 그렇지 않으면 false입니다.</param>
+        </member>
+        <member name="M:JAS.Controls.Display.Display2.InitializeComponent">
+            <summary> 
+            디자이너 지원에 필요한 메서드입니다. 
+            이 메서드의 내용을 코드 편집기로 수정하지 마세요.
+            </summary>
+        </member>
+        <member name="T:JAS.Controls.Display.DisplayToolBar">
+            <summary>
+            DisplayToolBar.xaml에 대한 상호 작용 논리
+            </summary>
+            <summary>
+            DisplayToolBar
+            </summary>
+        </member>
+        <member name="F:JAS.Controls.Display.DisplayToolBar._Name">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:JAS.Controls.Display.DisplayToolBar.Name">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="E:JAS.Controls.Display.DisplayToolBar.PropertyChanged">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="M:JAS.Controls.Display.DisplayToolBar.NotifyPropertyChanged(System.String)">
+            <summary>
+            
+            </summary>
+            <param name="propertyName"></param>
+        </member>
+        <member name="M:JAS.Controls.Display.DisplayToolBar.AllocateDisplay(Cognex.VisionPro.CogRecordDisplay)">
+            <summary>
+            CogRecordDisplay 연결 하고 싶을때
+            </summary>
+            <param name="value"></param>
+        </member>
+        <member name="F:JAS.Controls.Display.DisplayToolBar.M_ResultDataS">
+            <summary> 
+            Get measurement information string
+            </summary>
+        </member>
+        <member name="F:JAS.Controls.Display.DisplayToolBar.M_ResultData">
+            <summary> 
+            Get measurement Data
+            </summary>
+        </member>
+        <member name="F:JAS.Controls.Display.DisplayToolBar.m_DIR">
+            <summary> 
+            Set Measurement Data Plus Or minus
+            </summary>
+        </member>
+        <member name="P:JAS.Controls.Display.DisplayToolBar.Image">
+            <summary> 
+            Display Image
+            </summary>
+        </member>
+        <member name="P:JAS.Controls.Display.DisplayToolBar.Resuloution">
+            <summary> 
+            Get , Set Display 1pixel Resolution
+            </summary>
+        </member>
+        <member name="P:JAS.Controls.Display.DisplayToolBar.SettingTool">
+            <summary> 
+            Get , Set Display SettingTool Use
+            </summary>
+        </member>
+        <member name="P:JAS.Controls.Display.DisplayToolBar.DisplayButtonName">
+            <summary> 
+            Get , Set Display SettingTool Use
+            </summary>
+        </member>
+        <member name="M:JAS.Controls.Display.DisplayToolBar.InitializeComponent">
+            <summary>
+            InitializeComponent
+            </summary>
+        </member>
+        <member name="T:JAS.Controls.Display.SystemImage">
+            <summary>
+            / ICON FINDER 사이트에서  아이콘 검색 한다. 
+            SVG 파일로 로컬에 저장한다. 
+            SVG 파일로 열고  마우스 오른쪾을 눌러서 페이지 원본보기를 하고 거기서 Path 가져와서 사용한다. 
+            </summary>
+        </member>
+        <member name="T:JAS.Controls.Display.HistoryPanel">
+            <summary>
+            HistoryPanel.xaml에 대한 상호 작용 논리
+            </summary>
+            <summary>
+            HistoryPanel
+            </summary>
+        </member>
+        <member name="F:JAS.Controls.Display.HistoryPanel.LB_CURRENT_IMAGE_CNT">
+            <summary>
+            LB_CURRENT_IMAGE_CNT Name Field
+            </summary>
+        </member>
+        <member name="F:JAS.Controls.Display.HistoryPanel.LB_TOTAL_IMAGE_CNT">
+            <summary>
+            LB_TOTAL_IMAGE_CNT Name Field
+            </summary>
+        </member>
+        <member name="F:JAS.Controls.Display.HistoryPanel.BTN_IMG_PRE">
+            <summary>
+            BTN_IMG_PRE Name Field
+            </summary>
+        </member>
+        <member name="F:JAS.Controls.Display.HistoryPanel.BTN_IMG_NEXT">
+            <summary>
+            BTN_IMG_NEXT Name Field
+            </summary>
+        </member>
+        <member name="M:JAS.Controls.Display.HistoryPanel.InitializeComponent">
+            <summary>
+            InitializeComponent
+            </summary>
+        </member>
+        <member name="T:JAS.Controls.Display.NumericSpinner">
+            <summary>
+            Interaction logic for NumericSpinner.xaml
+            </summary>
+            <summary>
+            NumericSpinner
+            </summary>
+        </member>
+        <member name="M:JAS.Controls.Display.NumericSpinner.validate">
+            <summary>
+            Revalidate the object, whenever a value is changed...
+            </summary>
+        </member>
+        <member name="M:JAS.Controls.Display.NumericSpinner.InitializeComponent">
+            <summary>
+            InitializeComponent
+            </summary>
+        </member>
+        <member name="F:JAS.Controls.Display.Display.M_ResultDataS">
+            <summary> 
+            Get measurement information string
+            </summary>
+        </member>
+        <member name="F:JAS.Controls.Display.Display.M_ResultData">
+            <summary> 
+            Get measurement Data
+            </summary>
+        </member>
+        <member name="F:JAS.Controls.Display.Display.m_DIR">
+            <summary> 
+            Set Measurement Data Plus Or minus
+            </summary>
+        </member>
+        <member name="P:JAS.Controls.Display.Display.Image">
+            <summary> 
+            Display Image
+            </summary>
+        </member>
+        <member name="P:JAS.Controls.Display.Display.Resuloution">
+            <summary> 
+            Get , Set Display 1pixel Resolution
+            </summary>
+        </member>
+        <member name="P:JAS.Controls.Display.Display.SettingTool">
+            <summary> 
+            Get , Set Display SettingTool Use
+            </summary>
+        </member>
+        <member name="P:JAS.Controls.Display.Display.DisplayButtonName">
+            <summary> 
+            Get , Set Display SettingTool Use
+            </summary>
+        </member>
+        <member name="F:JAS.Controls.Display.Display.components">
+            <summary> 
+            필수 디자이너 변수입니다.
+            </summary>
+        </member>
+        <member name="M:JAS.Controls.Display.Display.Dispose(System.Boolean)">
+            <summary> 
+            사용 중인 모든 리소스를 정리합니다.
+            </summary>
+            <param name="disposing">관리되는 리소스를 삭제해야 하면 true이고, 그렇지 않으면 false입니다.</param>
+        </member>
+        <member name="P:JAS.Controls.Tools.CogBlobMaskEditV2.InputImage">
+            <summary>"Get or set the InputImage."</summary>
+        </member>
+        <member name="P:JAS.Controls.Tools.CogBlobMaskEditV2.OutputImage">
+            <summary>"Get the OutputImage."        </summary>
+        </member>
+        <member name="P:JAS.Controls.Tools.CogBlobMaskEditV2.MaskImage">
+            <summary>"Get the OutputMaskImage." </summary>
+        </member>
+        <member name="P:JAS.Controls.Tools.CogBlobMaskEditV2.GraphicMask">
+            <summary> "Get the GraphicMask."</summary>
+        </member>
+        <member name="M:JAS.Controls.Tools.CogBlobMaskEditV2.Run">
+            <summary> "Runs the tool using the current parameter settings."     </summary>
+        </member>
+        <member name="M:JAS.Controls.Tools.CogBlobMaskEditV2.GetRunParams">
+            <summary> " Get or set the RunParams."     </summary>
+        </member>
+        <member name="M:JAS.Controls.Tools.CogBlobMaskEditV2.SetRunParams(JAS.Controls.Tools.BlobMaskRunparams)">
+            <summary> " Set or set the RunParams."     </summary>
+        </member>
+        <member name="M:JAS.Controls.Tools.CogBlobMaskEditV2.ClearRunParams">
+            <summary> "Clear Runparams."     </summary>
+        </member>
+        <member name="P:JAS.Controls.Tools.CogBlobMaskEditV2.RunParams">
+            <summary> " RunParams."     </summary>
+        </member>
+        <member name="F:JAS.Controls.Tools.CogBlobMaskEditV2.components">
+            <summary>
+            필수 디자이너 변수입니다.
+            </summary>
+        </member>
+        <member name="M:JAS.Controls.Tools.CogBlobMaskEditV2.Dispose(System.Boolean)">
+            <summary>
+            사용 중인 모든 리소스를 정리합니다.
+            </summary>
+            <param name="disposing">관리되는 리소스를 삭제해야 하면 true이고, 그렇지 않으면 false입니다.</param>
+        </member>
+        <member name="M:JAS.Controls.Tools.CogBlobMaskEditV2.InitializeComponent">
+            <summary>
+            디자이너 지원에 필요한 메서드입니다. 
+            이 메서드의 내용을 코드 편집기로 수정하지 마십시오.
+            </summary>
+        </member>
+        <member name="T:JAS.Controls.Tools.ImageFileLoadTool">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="M:JAS.Controls.Tools.ImageFileLoadTool.#ctor">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:JAS.Controls.Tools.ImageFileLoadTool.InputImagePath">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:JAS.Controls.Tools.ImageFileLoadTool.InputFolderPath">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:JAS.Controls.Tools.ImageFileLoadTool.OutputImage">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="M:JAS.Controls.Tools.ImageFileLoadTool.Load(System.String)">
+            <summary>
+            
+            </summary>
+            <param name="_FilePath"></param>
+        </member>
+        <member name="M:JAS.Controls.Tools.ImageFileLoadTool.RunPrevious">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="M:JAS.Controls.Tools.ImageFileLoadTool.RunCurrent">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="M:JAS.Controls.Tools.ImageFileLoadTool.RunNext">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="M:JAS.Controls.Tools.ImageFileLoadTool.Run(System.String)">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="F:JAS.Controls.Tools.ImageFileLoadTool.components">
+            <summary> 
+            필수 디자이너 변수입니다.
+            </summary>
+        </member>
+        <member name="M:JAS.Controls.Tools.ImageFileLoadTool.Dispose(System.Boolean)">
+            <summary> 
+            사용 중인 모든 리소스를 정리합니다.
+            </summary>
+            <param name="disposing">관리되는 리소스를 삭제해야 하면 true이고, 그렇지 않으면 false입니다.</param>
+        </member>
+        <member name="M:JAS.Controls.Tools.ImageFileLoadTool.InitializeComponent">
+            <summary> 
+            디자이너 지원에 필요한 메서드입니다. 
+            이 메서드의 내용을 코드 편집기로 수정하지 마세요.
+            </summary>
+        </member>
+        <member name="P:JAS.Controls.Tools.CogBlobMaskTool.InputImage">
+            <summary> "Get or set the InputImage."</summary>
+        </member>
+        <member name="P:JAS.Controls.Tools.CogBlobMaskTool.RunParams">
+            <summary>  Get or set the RunParams.</summary>
+        </member>
+        <member name="P:JAS.Controls.Tools.CogBlobMaskTool.LastRunRecordEnable">
+            <summary> Enable creation of records by bitwise ORing the appropriate LastRunRecordConstants.</summary>
+        </member>
+        <member name="P:JAS.Controls.Tools.CogBlobMaskTool.Result">
+            <summary> Get the result of the most recent tool run.</summary>
+        </member>
+        <member name="P:JAS.Controls.Tools.CogBlobMaskTool.ResultState">
+            <summary> Get the result State .</summary>
+        </member>
+        <member name="M:JAS.Controls.Tools.CogBlobMaskTool.Serialize(System.String,JAS.Controls.Tools.BlobMaskRunparams)">
+            <summary>Saves an object to a file in a binary format.     </summary>
+        </member>
+        <member name="M:JAS.Controls.Tools.CogBlobMaskTool.Deserialize(System.String)">
+            <summary> Loads an object from the given file. The format of the file will be determined     </summary>
+        </member>
+        <member name="M:JAS.Controls.Tools.CogBlobMaskTool.Run(System.Boolean)">
+            <summary>"Runs the tool using the current parameter settings."     </summary>
+        </member>
+        <member name="M:JAS.Controls.Tools.CogBlobMaskTool.Dispose">
+            <summary>"Releases all resources used by the System.ComponentModel.Component."     </summary>
+        </member>
+        <member name="P:JAS.Controls.Tools.CogBlobMaskCreatorResult.OutputImage">
+            <summary>"Get the OutputImage."        </summary>
+        </member>
+        <member name="P:JAS.Controls.Tools.CogBlobMaskCreatorResult.MaskImage">
+            <summary>"Get the OutputMaskImage."      </summary>
+        </member>
+        <member name="P:JAS.Controls.Tools.CogBlobMaskCreatorResult.GraphicMask">
+            <summary>"Get the GraphicMask."       </summary>
+        </member>
+        <member name="M:JAS.Controls.Tools.CogBlobMaskCreatorResult.Dispose">
+            <summary>"Releases all resources used by the System.ComponentModel.Component."     </summary>
+        </member>
+        <member name="T:JAS.Controls.Properties.Resources">
+            <summary>
+              지역화된 문자열 등을 찾기 위한 강력한 형식의 리소스 클래스입니다.
+            </summary>
+        </member>
+        <member name="P:JAS.Controls.Properties.Resources.ResourceManager">
+            <summary>
+              이 클래스에서 사용하는 캐시된 ResourceManager 인스턴스를 반환합니다.
+            </summary>
+        </member>
+        <member name="P:JAS.Controls.Properties.Resources.Culture">
+            <summary>
+              이 강력한 형식의 리소스 클래스를 사용하여 모든 리소스 조회에 대해 현재 스레드의 CurrentUICulture 속성을
+              재정의합니다.
+            </summary>
+        </member>
+        <member name="P:JAS.Controls.Properties.Resources.angle3_20">
+            <summary>
+              System.Drawing.Bitmap 형식의 지역화된 리소스를 찾습니다.
+            </summary>
+        </member>
+        <member name="P:JAS.Controls.Properties.Resources.arrows_24">
+            <summary>
+              System.Drawing.Bitmap 형식의 지역화된 리소스를 찾습니다.
+            </summary>
+        </member>
+        <member name="P:JAS.Controls.Properties.Resources.Circle2_16">
+            <summary>
+              System.Drawing.Bitmap 형식의 지역화된 리소스를 찾습니다.
+            </summary>
+        </member>
+        <member name="P:JAS.Controls.Properties.Resources.Circle3_16">
+            <summary>
+              System.Drawing.Bitmap 형식의 지역화된 리소스를 찾습니다.
+            </summary>
+        </member>
+        <member name="P:JAS.Controls.Properties.Resources.COPY16">
+            <summary>
+              System.Drawing.Bitmap 형식의 지역화된 리소스를 찾습니다.
+            </summary>
+        </member>
+        <member name="P:JAS.Controls.Properties.Resources.Corss22_20">
+            <summary>
+              System.Drawing.Bitmap 형식의 지역화된 리소스를 찾습니다.
+            </summary>
+        </member>
+        <member name="P:JAS.Controls.Properties.Resources.delete_16">
+            <summary>
+              System.Drawing.Bitmap 형식의 지역화된 리소스를 찾습니다.
+            </summary>
+        </member>
+        <member name="P:JAS.Controls.Properties.Resources.Fit2_16">
+            <summary>
+              System.Drawing.Bitmap 형식의 지역화된 리소스를 찾습니다.
+            </summary>
+        </member>
+        <member name="P:JAS.Controls.Properties.Resources.Focus">
+            <summary>
+              System.Drawing.Bitmap 형식의 지역화된 리소스를 찾습니다.
+            </summary>
+        </member>
+        <member name="P:JAS.Controls.Properties.Resources.IMAGE16">
+            <summary>
+              System.Drawing.Bitmap 형식의 지역화된 리소스를 찾습니다.
+            </summary>
+        </member>
+        <member name="P:JAS.Controls.Properties.Resources.Line_20">
+            <summary>
+              System.Drawing.Bitmap 형식의 지역화된 리소스를 찾습니다.
+            </summary>
+        </member>
+        <member name="P:JAS.Controls.Properties.Resources.NEXT">
+            <summary>
+              System.Drawing.Bitmap 형식의 지역화된 리소스를 찾습니다.
+            </summary>
+        </member>
+        <member name="P:JAS.Controls.Properties.Resources.open16">
+            <summary>
+              System.Drawing.Bitmap 형식의 지역화된 리소스를 찾습니다.
+            </summary>
+        </member>
+        <member name="P:JAS.Controls.Properties.Resources.open3_16">
+            <summary>
+              System.Drawing.Bitmap 형식의 지역화된 리소스를 찾습니다.
+            </summary>
+        </member>
+        <member name="P:JAS.Controls.Properties.Resources.PRE">
+            <summary>
+              System.Drawing.Bitmap 형식의 지역화된 리소스를 찾습니다.
+            </summary>
+        </member>
+        <member name="P:JAS.Controls.Properties.Resources.square1_24">
+            <summary>
+              System.Drawing.Bitmap 형식의 지역화된 리소스를 찾습니다.
+            </summary>
+        </member>
+        <member name="P:JAS.Controls.Properties.Resources.touch_16">
+            <summary>
+              System.Drawing.Bitmap 형식의 지역화된 리소스를 찾습니다.
+            </summary>
+        </member>
+        <member name="P:JAS.Controls.Properties.Resources.undo3_16">
+            <summary>
+              System.Drawing.Bitmap 형식의 지역화된 리소스를 찾습니다.
+            </summary>
+        </member>
+        <member name="T:XamlGeneratedNamespace.GeneratedInternalTypeHelper">
+            <summary>
+            GeneratedInternalTypeHelper
+            </summary>
+        </member>
+        <member name="M:XamlGeneratedNamespace.GeneratedInternalTypeHelper.CreateInstance(System.Type,System.Globalization.CultureInfo)">
+            <summary>
+            CreateInstance
+            </summary>
+        </member>
+        <member name="M:XamlGeneratedNamespace.GeneratedInternalTypeHelper.GetPropertyValue(System.Reflection.PropertyInfo,System.Object,System.Globalization.CultureInfo)">
+            <summary>
+            GetPropertyValue
+            </summary>
+        </member>
+        <member name="M:XamlGeneratedNamespace.GeneratedInternalTypeHelper.SetPropertyValue(System.Reflection.PropertyInfo,System.Object,System.Object,System.Globalization.CultureInfo)">
+            <summary>
+            SetPropertyValue
+            </summary>
+        </member>
+        <member name="M:XamlGeneratedNamespace.GeneratedInternalTypeHelper.CreateDelegate(System.Type,System.Object,System.String)">
+            <summary>
+            CreateDelegate
+            </summary>
+        </member>
+        <member name="M:XamlGeneratedNamespace.GeneratedInternalTypeHelper.AddEventHandler(System.Reflection.EventInfo,System.Object,System.Delegate)">
+            <summary>
+            AddEventHandler
+            </summary>
+        </member>
+    </members>
+</doc>

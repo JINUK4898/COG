@@ -1,0 +1,324 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>JAS.Designer</name>
+    </assembly>
+    <members>
+        <member name="F:JAS.Designer.MainView.DisplayTabControl.components">
+            <summary> 
+            필수 디자이너 변수입니다.
+            </summary>
+        </member>
+        <member name="M:JAS.Designer.MainView.DisplayTabControl.Dispose(System.Boolean)">
+            <summary> 
+            사용 중인 모든 리소스를 정리합니다.
+            </summary>
+            <param name="disposing">관리되는 리소스를 삭제해야 하면 true이고, 그렇지 않으면 false입니다.</param>
+        </member>
+        <member name="M:JAS.Designer.MainView.DisplayTabControl.InitializeComponent">
+            <summary> 
+            디자이너 지원에 필요한 메서드입니다. 
+            이 메서드의 내용을 코드 편집기로 수정하지 마세요.
+            </summary>
+        </member>
+        <member name="T:JAS.Designer.MainView.LicenseView">
+            <summary>
+            LicenseView.xaml에 대한 상호 작용 논리
+            </summary>
+            <summary>
+            LicenseView
+            </summary>
+        </member>
+        <member name="M:JAS.Designer.MainView.LicenseView.InitializeComponent">
+            <summary>
+            InitializeComponent
+            </summary>
+        </member>
+        <member name="T:JAS.Designer.MainView.LoginInfo">
+            <summary>
+            LoginInfo.xaml에 대한 상호 작용 논리
+            </summary>
+            <summary>
+            LoginInfo
+            </summary>
+        </member>
+        <member name="M:JAS.Designer.MainView.LoginInfo.InitializeComponent">
+            <summary>
+            InitializeComponent
+            </summary>
+        </member>
+        <member name="T:JAS.Designer.MainView.ManuTabView">
+            <summary>
+            ManuTabView.xaml에 대한 상호 작용 논리
+            </summary>
+            <summary>
+            ManuTabView
+            </summary>
+        </member>
+        <member name="F:JAS.Designer.MainView.ManuTabView.Btn00">
+            <summary>
+            Btn00 Name Field
+            </summary>
+        </member>
+        <member name="F:JAS.Designer.MainView.ManuTabView.Btn01">
+            <summary>
+            Btn01 Name Field
+            </summary>
+        </member>
+        <member name="F:JAS.Designer.MainView.ManuTabView.Btn02">
+            <summary>
+            Btn02 Name Field
+            </summary>
+        </member>
+        <member name="F:JAS.Designer.MainView.ManuTabView.Btn03">
+            <summary>
+            Btn03 Name Field
+            </summary>
+        </member>
+        <member name="F:JAS.Designer.MainView.ManuTabView.Btn04">
+            <summary>
+            Btn04 Name Field
+            </summary>
+        </member>
+        <member name="F:JAS.Designer.MainView.ManuTabView.Btn05">
+            <summary>
+            Btn05 Name Field
+            </summary>
+        </member>
+        <member name="F:JAS.Designer.MainView.ManuTabView.Btn06">
+            <summary>
+            Btn06 Name Field
+            </summary>
+        </member>
+        <member name="F:JAS.Designer.MainView.ManuTabView.Btn07">
+            <summary>
+            Btn07 Name Field
+            </summary>
+        </member>
+        <member name="F:JAS.Designer.MainView.ManuTabView.Btn08">
+            <summary>
+            Btn08 Name Field
+            </summary>
+        </member>
+        <member name="F:JAS.Designer.MainView.ManuTabView.Btn09">
+            <summary>
+            Btn09 Name Field
+            </summary>
+        </member>
+        <member name="M:JAS.Designer.MainView.ManuTabView.InitializeComponent">
+            <summary>
+            InitializeComponent
+            </summary>
+        </member>
+        <member name="T:JAS.Designer.MainView.PCInfoView">
+            <summary>
+            PCInfoView.xaml에 대한 상호 작용 논리
+            </summary>
+            <summary>
+            PCInfoView
+            </summary>
+        </member>
+        <member name="M:JAS.Designer.MainView.PCInfoView.InitializeComponent">
+            <summary>
+            InitializeComponent
+            </summary>
+        </member>
+        <member name="T:JAS.Designer.MainView.ProjectView">
+            <summary>
+            ProjectView.xaml에 대한 상호 작용 논리
+            </summary>
+            <summary>
+            ProjectView
+            </summary>
+        </member>
+        <member name="F:JAS.Designer.MainView.ProjectView.LblPlcModel">
+            <summary>
+            LblPlcModel Name Field
+            </summary>
+        </member>
+        <member name="F:JAS.Designer.MainView.ProjectView.LblVisionModel">
+            <summary>
+            LblVisionModel Name Field
+            </summary>
+        </member>
+        <member name="M:JAS.Designer.MainView.ProjectView.InitializeComponent">
+            <summary>
+            InitializeComponent
+            </summary>
+        </member>
+        <member name="T:JAS.Designer.MainView.ResultLogViewW">
+            <summary>
+            ResultLogViewW.xaml에 대한 상호 작용 논리
+            </summary>
+            <summary>
+            ResultLogViewW
+            </summary>
+        </member>
+        <member name="M:JAS.Designer.MainView.ResultLogViewW.InitializeComponent">
+            <summary>
+            InitializeComponent
+            </summary>
+        </member>
+        <member name="T:JAS.Designer.MainView.ResultTabView">
+            <summary>
+            ResultTabView.xaml에 대한 상호 작용 논리
+            </summary>
+            <summary>
+            ResultTabView
+            </summary>
+        </member>
+        <member name="M:JAS.Designer.MainView.ResultTabView.InitializeComponent">
+            <summary>
+            InitializeComponent
+            </summary>
+        </member>
+        <member name="T:JAS.Designer.MainView.StartStopView">
+            <summary>
+            StartStopView.xaml에 대한 상호 작용 논리
+            </summary>
+            <summary>
+            StartStopView
+            </summary>
+        </member>
+        <member name="M:JAS.Designer.MainView.StartStopView.InitializeComponent">
+            <summary>
+            InitializeComponent
+            </summary>
+        </member>
+        <member name="T:JAS.Designer.MainView.SWInfoView">
+            <summary>
+            SWInfoView.xaml에 대한 상호 작용 논리
+            </summary>
+            <summary>
+            SWInfoView
+            </summary>
+        </member>
+        <member name="M:JAS.Designer.MainView.SWInfoView.InitializeComponent">
+            <summary>
+            InitializeComponent
+            </summary>
+        </member>
+        <member name="T:JAS.Designer.MainformWpf">
+            <summary>
+            MainformWpf.xaml에 대한 상호 작용 논리
+            </summary>
+            <summary>
+            MainformWpf
+            </summary>
+        </member>
+        <member name="P:JAS.Designer.MainformWpf.StartStop">
+            <summary>
+            True = start Button Enable
+            false = Stop Button Enable
+            </summary>
+        </member>
+        <member name="F:JAS.Designer.MainformWpf.lblClientName">
+            <summary>
+            lblClientName Name Field
+            </summary>
+        </member>
+        <member name="F:JAS.Designer.MainformWpf.lblMachineName">
+            <summary>
+            lblMachineName Name Field
+            </summary>
+        </member>
+        <member name="F:JAS.Designer.MainformWpf.lblProgramInfo">
+            <summary>
+            lblProgramInfo Name Field
+            </summary>
+        </member>
+        <member name="F:JAS.Designer.MainformWpf.lblProcess">
+            <summary>
+            lblProcess Name Field
+            </summary>
+        </member>
+        <member name="F:JAS.Designer.MainformWpf.lbDirection">
+            <summary>
+            lbDirection Name Field
+            </summary>
+        </member>
+        <member name="F:JAS.Designer.MainformWpf.lblTime">
+            <summary>
+            lblTime Name Field
+            </summary>
+        </member>
+        <member name="F:JAS.Designer.MainformWpf.lblDate">
+            <summary>
+            lblDate Name Field
+            </summary>
+        </member>
+        <member name="F:JAS.Designer.MainformWpf.ManuTabView">
+            <summary>
+            ManuTabView Name Field
+            </summary>
+        </member>
+        <member name="F:JAS.Designer.MainformWpf.ProjectView">
+            <summary>
+            ProjectView Name Field
+            </summary>
+        </member>
+        <member name="F:JAS.Designer.MainformWpf.SwInfoView">
+            <summary>
+            SwInfoView Name Field
+            </summary>
+        </member>
+        <member name="F:JAS.Designer.MainformWpf.PCInfoView">
+            <summary>
+            PCInfoView Name Field
+            </summary>
+        </member>
+        <member name="F:JAS.Designer.MainformWpf.LicenseView">
+            <summary>
+            LicenseView Name Field
+            </summary>
+        </member>
+        <member name="F:JAS.Designer.MainformWpf.ResultTabView1">
+            <summary>
+            ResultTabView1 Name Field
+            </summary>
+        </member>
+        <member name="M:JAS.Designer.MainformWpf.InitializeComponent">
+            <summary>
+            InitializeComponent
+            </summary>
+        </member>
+        <member name="P:JAS.Designer.Mainform.PCInfoDelayTime">
+            <summary> 
+             PC resource Check Delay 
+            </summary>
+        </member>
+        <member name="F:JAS.Designer.Mainform.components">
+            <summary> 
+            필수 디자이너 변수입니다.
+            </summary>
+        </member>
+        <member name="M:JAS.Designer.Mainform.Dispose(System.Boolean)">
+            <summary> 
+            사용 중인 모든 리소스를 정리합니다.
+            </summary>
+            <param name="disposing">관리되는 리소스를 삭제해야 하면 true이고, 그렇지 않으면 false입니다.</param>
+        </member>
+        <member name="M:JAS.Designer.Mainform.InitializeComponent">
+            <summary> 
+            디자이너 지원에 필요한 메서드입니다. 
+            이 메서드의 내용을 코드 편집기로 수정하지 마십시오.
+            </summary>
+        </member>
+        <member name="T:JAS.Designer.Properties.Resources">
+            <summary>
+              지역화된 문자열 등을 찾기 위한 강력한 형식의 리소스 클래스입니다.
+            </summary>
+        </member>
+        <member name="P:JAS.Designer.Properties.Resources.ResourceManager">
+            <summary>
+              이 클래스에서 사용하는 캐시된 ResourceManager 인스턴스를 반환합니다.
+            </summary>
+        </member>
+        <member name="P:JAS.Designer.Properties.Resources.Culture">
+            <summary>
+              이 강력한 형식의 리소스 클래스를 사용하여 모든 리소스 조회에 대해 현재 스레드의 CurrentUICulture 속성을
+              재정의합니다.
+            </summary>
+        </member>
+    </members>
+</doc>
